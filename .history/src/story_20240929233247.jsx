@@ -20,7 +20,6 @@ const Story = ({ story, deleteStory }) => {
                     left:600,
                     backgroundColor: 'red',
                     color: 'white',
-                    border: 'none',
                     borderRadius: '50%',
                     width: '30px',
                     height: '30px',

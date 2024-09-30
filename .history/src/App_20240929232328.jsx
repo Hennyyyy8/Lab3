@@ -19,7 +19,7 @@ function App() {
           <Story 
             key={index}
             story={story}
-            deleteStory={() => deleteStory(index)}/>
+            removeStory={() => deleteStory(index)}/>
         ))}
       </div>
     </div>

@@ -17,6 +17,7 @@ const Story = ({ story, deleteStory }) => {
                 onClick={deleteStory} 
                 style={{
                     position: 'relative',
+                    top:100,
                     left:600,
                     backgroundColor: 'red',
                     color: 'white',
@@ -25,6 +26,8 @@ const Story = ({ story, deleteStory }) => {
                     width: '30px',
                     height: '30px',
                     fontSize: '20px',
+                    textAlign: 'center',
+                    lineHeight: '30px',
                     cursor: 'pointer'
                 }}
             >

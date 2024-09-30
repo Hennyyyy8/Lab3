@@ -23,7 +23,6 @@ const Story = ({ story, deleteStory }) => {
                     border: 'none',
                     borderRadius: '50%',
                     width: '30px',
-                    height: '30px',
                     fontSize: '20px',
                     cursor: 'pointer'
                 }}

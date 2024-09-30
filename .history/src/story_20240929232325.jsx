@@ -13,23 +13,7 @@ const Story = ({ story, deleteStory }) => {
             <p><strong>By:</strong> {creator ? creator.join(', ') : 'Unknown'}</p>
                 <p>{description}</p>
                 <a href={link} target="_blank" rel="noopener noreferrer">Read More</a>
-                <button 
-                onClick={deleteStory} 
-                style={{
-                    position: 'relative',
-                    left:600,
-                    backgroundColor: 'red',
-                    color: 'white',
-                    border: 'none',
-                    borderRadius: '50%',
-                    width: '30px',
-                    height: '30px',
-                    fontSize: '20px',
-                    cursor: 'pointer'
-                }}
-            >
-                &#10005;
-            </button>
+                <button onClick={deleteStory}>Remove Story</button>
         </div>
     );
 };

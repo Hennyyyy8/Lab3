@@ -25,6 +25,8 @@ const Story = ({ story, deleteStory }) => {
                     width: '30px',
                     height: '30px',
                     fontSize: '20px',
+                    textAlign: 'center',
+                    lineHeight: '30px',
                     cursor: 'pointer'
                 }}
             >

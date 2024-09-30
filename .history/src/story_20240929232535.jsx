@@ -16,8 +16,9 @@ const Story = ({ story, deleteStory }) => {
                 <button 
                 onClick={deleteStory} 
                 style={{
-                    position: 'relative',
-                    left:600,
+                    position: 'absolute',
+                    top: '10px',
+                    right: '10px',
                     backgroundColor: 'red',
                     color: 'white',
                     border: 'none',
@@ -25,6 +26,8 @@ const Story = ({ story, deleteStory }) => {
                     width: '30px',
                     height: '30px',
                     fontSize: '20px',
+                    textAlign: 'center',
+                    lineHeight: '30px',
                     cursor: 'pointer'
                 }}
             >
